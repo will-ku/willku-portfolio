@@ -18,7 +18,7 @@ const Home = () => {
           {/* END AVATAR */}
           <div className="details">
             <h3 className="name">William Ku</h3>
-            <p className="job">
+            <p className="job" style={{ lineHeight: "1.7" }}>
               Software Engineer. New Yorker. <br /> Photographer. Cool shit
               builder.
             </p>

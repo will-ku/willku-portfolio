@@ -16,7 +16,7 @@ const HomeLight = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
+                <Link className="navbar-brand" to="#">
                   <img src="/assets/img/logo/dark.png" alt="brand" />
                 </Link>
               </div>
@@ -40,21 +40,21 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">About</span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/briefcase.svg"
                       alt="briefcase"
                     />
                     <span className="menu_content">Portfolio</span>
-                  </Tab>
+                  </Tab> */}
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/paper.svg"
-                      alt="paper"
+                      src="/assets/img/svg/briefcase.svg"
+                      alt="Projects"
                     />
-                    <span className="menu_content">News</span>
+                    <span className="menu_content">Projects</span>
                   </Tab>
                   <Tab>
                     <img
@@ -68,7 +68,7 @@ const HomeLight = () => {
               </div>
               {/* END MENU */}
 
-              <div className="copyright">
+              {/* <div className="copyright">
                 <p>
                   &copy; {new Date().getFullYear()} Tokyo <br /> Created by
                   <a
@@ -79,7 +79,7 @@ const HomeLight = () => {
                     Ib-Themes
                   </a>
                 </p>
-              </div>
+              </div> */}
               {/* END COPYRIGHT */}
             </div>
           </div>
@@ -102,9 +102,9 @@ const HomeLight = () => {
                 </TabPanel>
                 {/* END ABOUT MENU TAB CONTENT */}
 
-                <TabPanel>
+                {/* <TabPanel>
                   <Portfolio />
-                </TabPanel>
+                </TabPanel> */}
                 {/* END PORTFOLIO MENU TAB CONTENT */}
 
                 <TabPanel>

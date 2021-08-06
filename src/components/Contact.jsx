@@ -5,9 +5,9 @@ import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [viewport, setViewport] = useState({
-    latitude: 40.712776,
-    longitude: -74.005974,
-    zoom: 8,
+    latitude: 40.7411,
+    longitude: -73.9897,
+    zoom: 10,
   });
 
   function sendEmail(e) {
@@ -36,8 +36,8 @@ const Contact = () => {
         <div className="tokyo_tm_title">
           <div className="title_flex">
             <div className="left">
-              <span>Contact</span>
-              <h3>Get in Touch</h3>
+              {/* <span>Contact</span> */}
+              <h3>Let's Connect!</h3>
             </div>
           </div>
         </div>

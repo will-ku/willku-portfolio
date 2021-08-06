@@ -15,21 +15,31 @@ const About = () => {
     <>
       <div className="tokyo_tm_about">
         <div className="o-video">
-          <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe>
+          {/* <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe> */}
+          <img
+            src="https://pixsy-dev.s3.us-east-2.amazonaws.com/port/freedomtowerbw.jpg"
+            alt="banner"
+          />
         </div>
         {/* END ABOUT Video */}
         <div className="description">
-          <h3 className="name">Adriano Smith &amp; Photographer</h3>
+          <h3 className="name">Welcome 👋</h3>
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative photographer based in New York and happy
-                to travel all over Europe to capture your big day in candid and
-                authentic photos. I will create a lasting memory of the people.
+                Hello! My name is William and I am a software engineer based in
+                NYC. I enjoy coming up with simple solutions as much as I love
+                learning about complicated ones. My focus is building meaningful
+                products and experiences.
+                <br />
+                <br />
+                In my past life, I worked at the intersection of healthcare and
+                technology for over 7 years. On my downtime, I enjoy taking
+                photos, like the one you see above!
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
-                  Read More
+                  Resume
                 </button>
               </div>
               {/* END TOKYO BUTTON */}
