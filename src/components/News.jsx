@@ -11,14 +11,23 @@ const News = () => {
   const [isOpen4, setIsOpen4] = useState(false);
 
   function toggleModalOne() {
-    setIsOpen(!isOpen);
+    return;
   }
+  // function toggleModalOne() {
+  //   setIsOpen(!isOpen);
+  // }
   function toggleModalTwo() {
-    setIsOpen2(!isOpen2);
+    return;
   }
+  // function toggleModalTwo() {
+  //   setIsOpen2(!isOpen2);
+  // }
   function toggleModalThree() {
-    setIsOpen3(!isOpen3);
+    return;
   }
+  // function toggleModalThree() {
+  //   setIsOpen3(!isOpen3);
+  // }
   function toggleModalFour() {
     setIsOpen4(!isOpen4);
   }
@@ -39,15 +48,18 @@ const News = () => {
         <ul>
           <li>
             <div className="list_inner">
-              <div className="image" onClick={toggleModalOne}>
-                <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
-                <div
-                  className="main"
-                  style={{
-                    backgroundImage: "url(assets/img/news/1.jpg)",
-                  }}
-                ></div>
-              </div>
+              <a href="https://pixsy-fullstack.herokuapp.com/#/">
+                <div className="image">
+                  {/* <div className="image" onClick={toggleModalOne}> */}
+                  <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
+                  <div
+                    className="main"
+                    style={{
+                      backgroundImage: "url(assets/img/news/portpixsy.png)",
+                    }}
+                  ></div>
+                </div>
+              </a>
               {/* END IMAGE */}
               <div className="details">
                 <div className="extra">
@@ -61,7 +73,8 @@ const News = () => {
                   Pixsy is an online photography marketplace inspired by Etsy.
                 </h3>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalOne}>
+                  <a href="https://pixsy-fullstack.herokuapp.com/#/">
+                    {/* <a onClick={toggleModalOne}> */}
                     <span>Live Demo</span>
                   </a>
                 </div>
@@ -191,15 +204,18 @@ const News = () => {
 
           <li>
             <div className="list_inner">
-              <div className="image" onClick={toggleModalTwo}>
-                <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
-                <div
-                  className="main"
-                  style={{
-                    backgroundImage: "url(assets/img/news/2.jpg)",
-                  }}
-                ></div>
-              </div>
+              <a href="https://home-court.herokuapp.com/">
+                <div className="image">
+                  {/* <div className="image" onClick={toggleModalTwo}> */}
+                  <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
+                  <div
+                    className="main"
+                    style={{
+                      backgroundImage: "url(assets/img/news/porthomecourt.png)",
+                    }}
+                  ></div>
+                </div>
+              </a>
               {/* END IMAGE */}
 
               <div className="details">
@@ -209,13 +225,15 @@ const News = () => {
                   </p>
                 </div>
                 {/* END EXTRA */}
-
-                <h3 className="title" onClick={toggleModalTwo}>
+                {/* MUST FIX THIS SO THAT I LINK TO PROJECT */}
+                <h3 className="title">
+                  {/* <h3 className="title" onClick={toggleModalTwo}> */}
                   Home Court is a social app that simplifies pickup sports
                   logistics.
                 </h3>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalTwo}>
+                  <a href="https://home-court.herokuapp.com/">
+                    {/* <a onClick={toggleModalTwo}> */}
                     <span>Live Demo</span>
                   </a>
                 </div>
@@ -342,15 +360,18 @@ const News = () => {
 
           <li>
             <div className="list_inner">
-              <div className="image" onClick={toggleModalThree}>
-                <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
-                <div
-                  className="main"
-                  style={{
-                    backgroundImage: "url(assets/img/news/3.jpg)",
-                  }}
-                ></div>
-              </div>
+              <a href="https://will-ku.github.io/nyc-viz/">
+                <div className="image">
+                  {/* <div className="image" onClick={toggleModalThree}> */}
+                  <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
+                  <div
+                    className="main"
+                    style={{
+                      backgroundImage: "url(assets/img/news/portnycviz.png)",
+                    }}
+                  ></div>
+                </div>
+              </a>
               {/* END IMAGE */}
 
               <div className="details">
@@ -363,7 +384,8 @@ const News = () => {
                   estate.
                 </h3>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalThree}>
+                  <a href="https://will-ku.github.io/nyc-viz/">
+                    {/* <a onClick={toggleModalThree}> */}
                     <span>Live Demo</span>
                   </a>
                 </div>

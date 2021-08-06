@@ -34,8 +34,8 @@ const About = () => {
                 <br />
                 <br />
                 In my past life, I worked at the intersection of healthcare and
-                technology for over 7 years. On my downtime, I enjoy taking
-                photos, like the one you see above!
+                technology for over 7 years. On my downtime, I enjoy exercising
+                and taking photos, like the one you see above!
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -49,39 +49,41 @@ const About = () => {
               <ul>
                 <li>
                   <p>
-                    <span>Birthday:</span>01.07.1990
+                    <span>Birthday:</span>nil
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Age:</span>31
+                    <span>Age:</span>nil
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Address:</span>Ave 11, New York, USA
+                    <span>Address:</span>nil
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Email:</span>
-                    <a href="mailto:mail@gmail.com">mail@gmail.com</a>
+                    {/* <a href="mailto:mail@gmail.com">mail@gmail.com</a> */}
+                    nil
                   </p>
                 </li>
                 <li>
                   <p>
                     <span>Phone:</span>
-                    <a href="tel:+770221770505">+77 022 177 05 05</a>
+                    {/* <a href="tel:+770221770505">+77 022 177 05 05</a> */}
+                    nil
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Study:</span>Univercity of Texas
+                    <span>Study:</span>nil
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Freelance:</span>Available
+                    <span>Freelance:</span>nil
                   </p>
                 </li>
               </ul>
