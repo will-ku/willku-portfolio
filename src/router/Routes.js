@@ -11,7 +11,7 @@ const Routes = () => {
       <Router>
         <Switch>
           {/* <Route exact path="/" component={Preview} /> */}
-          <Route exact path="/" component={HomeLight} />
+          <Route exact path="/willku-portfolio" component={HomeLight} />
           {/* <Route path="/home-light" component={HomeLight} /> */}
           {/* <Route path="/home-dark" component={HomeDark} /> */}
           <Route component={NotFound} />
