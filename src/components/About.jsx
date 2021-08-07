@@ -25,7 +25,7 @@ const About = () => {
         <div className="o-video">
           {/* <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe> */}
           <img
-            src="https://pixsy-dev.s3.us-east-2.amazonaws.com/port/aboutmepicbright.jpg"
+            src="https://pixsy-dev.s3.us-east-2.amazonaws.com/port/aboutmedark.jpg"
             alt="banner"
           />
         </div>
