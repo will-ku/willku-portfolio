@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Brand from "./Brand";
-import { Document } from "react-pdf";
+import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 
 Modal.setAppElement("#root");
 
@@ -10,6 +10,13 @@ const About = () => {
 
   function toggleModal() {
     setIsOpen(!isOpen);
+  }
+
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
   }
 
   return (
@@ -113,7 +120,12 @@ const About = () => {
           <div className="box-inner">
             <div className="description_wrap scrollable">
               <div className="my_box">
-                <Document file="https://pixsy-dev.s3.us-east-2.amazonaws.com/port/William+Ku+-+Software+Engineer+Resume.pdf"></Document>
+                <Document
+                  file="https://pixsy-dev.s3.us-east-2.amazonaws.com/port/William+Ku+-+Software+Engineer+Resume.pdf"
+                  onLoadSuccess={onDocumentLoadSuccess}
+                >
+                  <Page pageNumber={pageNumber} />
+                </Document>
               </div>
             </div>
           </div>
