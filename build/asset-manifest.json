@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/willku-portfolio/static/css/main.2cb134ea.chunk.css",
+    "main.css": "/willku-portfolio/static/css/main.e10d4561.chunk.css",
     "main.js": "/willku-portfolio/static/js/main.60237bf9.chunk.js",
     "main.js.map": "/willku-portfolio/static/js/main.60237bf9.chunk.js.map",
     "runtime-main.js": "/willku-portfolio/static/js/runtime-main.ec9428ef.js",
@@ -12,7 +12,7 @@
     "2eebe2c122b21b7bdd878af259927eb8.js": "/willku-portfolio/2eebe2c122b21b7bdd878af259927eb8.js",
     "2eebe2c122b21b7bdd878af259927eb8.js.LICENSE.txt": "/willku-portfolio/2eebe2c122b21b7bdd878af259927eb8.js.LICENSE.txt",
     "index.html": "/willku-portfolio/index.html",
-    "static/css/main.2cb134ea.chunk.css.map": "/willku-portfolio/static/css/main.2cb134ea.chunk.css.map",
+    "static/css/main.e10d4561.chunk.css.map": "/willku-portfolio/static/css/main.e10d4561.chunk.css.map",
     "static/js/2.3b12bd33.chunk.js.LICENSE.txt": "/willku-portfolio/static/js/2.3b12bd33.chunk.js.LICENSE.txt",
     "static/media/AngelList.8786f0e3.svg": "/willku-portfolio/static/media/AngelList.8786f0e3.svg",
     "static/media/Github.8d0020bf.svg": "/willku-portfolio/static/media/Github.8d0020bf.svg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.ec9428ef.js",
     "static/js/2.3b12bd33.chunk.js",
-    "static/css/main.2cb134ea.chunk.css",
+    "static/css/main.e10d4561.chunk.css",
     "static/js/main.60237bf9.chunk.js"
   ]
 }
