@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Link } from "react-router-dom";
 import Home from "../../components/Home";
 import About from "../../components/About";
-// import Portfolio from "../../components/Portfolio";
+import Portfolio from "../../components/Portfolio";
 import News from "../../components/News";
 import Contact from "../../components/Contact";
 
@@ -28,7 +28,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="assets/img/svg/home-run.svg"
+                      src="/assets/img/svg/home-run.svg"
                       alt="homerun"
                     />
                     <span className="menu_content">Home</span>
@@ -36,7 +36,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="assets/img/svg/avatar.svg"
+                      src="/assets/img/svg/avatar.svg"
                       alt="avatar"
                     />
                     <span className="menu_content">About</span>
@@ -52,7 +52,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="assets/img/svg/briefcase.svg"
+                      src="/assets/img/svg/briefcase.svg"
                       alt="Projects"
                     />
                     <span className="menu_content">Projects</span>
@@ -60,7 +60,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="assets/img/svg/mail.svg"
+                      src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />
                     <span className="menu_content"> Contact</span>
