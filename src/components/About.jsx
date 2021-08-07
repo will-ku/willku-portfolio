@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Brand from "./Brand";
+import { Document } from "react-pdf";
 
 Modal.setAppElement("#root");
 
@@ -112,154 +113,8 @@ const About = () => {
           <div className="box-inner">
             <div className="description_wrap scrollable">
               <div className="my_box">
-                <div className="left">
-                  <div className="about_title">
-                    <h3>Photography Skills</h3>
-                  </div>
-                  {/* END ABOUT TITLE */}
-
-                  <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
-                      <span>
-                        <span className="label">Wedding Photography</span>
-                        <span className="number">95%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 95 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="80">
-                      <span>
-                        <span className="label">Lifestyle Photography</span>
-                        <span className="number">80%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 80 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="90">
-                      <span>
-                        <span className="label">Family Photography</span>
-                        <span className="number">90%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 90 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* END PROGRESS */}
-                </div>
-                {/* END LEFT */}
-
-                <div className="right">
-                  <div className="about_title">
-                    <h3>Language Skills</h3>
-                  </div>
-                  {/* END TITLE */}
-                  <div className="tokyo_progress">
-                    <div className="progress_inner" data-value="95">
-                      <span>
-                        <span className="label">English</span>
-                        <span className="number">95%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 95 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="90">
-                      <span>
-                        <span className="label">Japanese</span>
-                        <span className="number">90%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 90 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="85">
-                      <span>
-                        <span className="label">Arabian</span>
-                        <span className="number">85%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 85 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* EDN TOKYO PROGRESS */}
-                </div>
-                {/* END RIGHT */}
+                <Document file="https://pixsy-dev.s3.us-east-2.amazonaws.com/port/William+Ku+-+Software+Engineer+Resume.pdf"></Document>
               </div>
-              {/* END MYBOX */}
-
-              <div className="counter">
-                <div className="about_title">
-                  <h3>Fun Facts</h3>
-                </div>
-                <ul>
-                  <li>
-                    <div className="list_inner">
-                      <h3>777+</h3>
-                      <span>Projects Completed</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list_inner">
-                      <h3>3K</h3>
-                      <span>Happy Clients</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list_inner">
-                      <h3>9K+</h3>
-                      <span>Lines of Code</span>
-                    </div>
-                  </li>
-                </ul>
-                {/* END COUNTER CONTENT */}
-              </div>
-              {/* END COUNTER */}
-
-              <div className="partners">
-                <div className="about_title">
-                  <h3>Our Partners</h3>
-                </div>
-                <Brand />
-              </div>
-              {/* END PARTNER SLIDER */}
             </div>
           </div>
         </div>
