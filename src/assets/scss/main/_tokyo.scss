@@ -1913,7 +1913,7 @@ body.modal {
   position: relative;
   padding-top: 57.95%; /* 9 / 16 * 100 */
   // WK: two rows below were commented out //
-  // margin-bottom: 45px;
+  margin-bottom: 45px;
   // background: #fff;
   @media screen and (max-width: 767px) {
     padding-top: 65%;
@@ -1926,5 +1926,5 @@ body.modal {
   top: 0;
   left: 0;
   border: 0;
-  object-fit: contain;
+  object-fit: cover;
 }
