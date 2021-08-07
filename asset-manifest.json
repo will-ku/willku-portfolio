@@ -1,27 +1,34 @@
 {
   "files": {
     "main.css": "/willku-portfolio/static/css/main.88d51cf4.chunk.css",
-    "main.js": "/willku-portfolio/static/js/main.2c305b12.chunk.js",
-    "main.js.map": "/willku-portfolio/static/js/main.2c305b12.chunk.js.map",
-    "runtime-main.js": "/willku-portfolio/static/js/runtime-main.b871b1f2.js",
-    "runtime-main.js.map": "/willku-portfolio/static/js/runtime-main.b871b1f2.js.map",
+    "main.js": "/willku-portfolio/static/js/main.53958e71.chunk.js",
+    "main.js.map": "/willku-portfolio/static/js/main.53958e71.chunk.js.map",
+    "runtime-main.js": "/willku-portfolio/static/js/runtime-main.17582197.js",
+    "runtime-main.js.map": "/willku-portfolio/static/js/runtime-main.17582197.js.map",
     "static/css/2.936cf602.chunk.css": "/willku-portfolio/static/css/2.936cf602.chunk.css",
-    "static/js/2.89b49375.chunk.js": "/willku-portfolio/static/js/2.89b49375.chunk.js",
-    "static/js/2.89b49375.chunk.js.map": "/willku-portfolio/static/js/2.89b49375.chunk.js.map",
-    "static/js/3.4eef4cd2.chunk.js": "/willku-portfolio/static/js/3.4eef4cd2.chunk.js",
-    "static/js/3.4eef4cd2.chunk.js.map": "/willku-portfolio/static/js/3.4eef4cd2.chunk.js.map",
+    "static/js/2.d9e3058a.chunk.js": "/willku-portfolio/static/js/2.d9e3058a.chunk.js",
+    "static/js/2.d9e3058a.chunk.js.map": "/willku-portfolio/static/js/2.d9e3058a.chunk.js.map",
+    "static/js/3.0f136334.chunk.js": "/willku-portfolio/static/js/3.0f136334.chunk.js",
+    "static/js/3.0f136334.chunk.js.map": "/willku-portfolio/static/js/3.0f136334.chunk.js.map",
     "index.html": "/willku-portfolio/index.html",
     "static/css/2.936cf602.chunk.css.map": "/willku-portfolio/static/css/2.936cf602.chunk.css.map",
     "static/css/main.88d51cf4.chunk.css.map": "/willku-portfolio/static/css/main.88d51cf4.chunk.css.map",
-    "static/js/2.89b49375.chunk.js.LICENSE.txt": "/willku-portfolio/static/js/2.89b49375.chunk.js.LICENSE.txt",
+    "static/js/2.d9e3058a.chunk.js.LICENSE.txt": "/willku-portfolio/static/js/2.d9e3058a.chunk.js.LICENSE.txt",
+    "static/media/AngelList.8786f0e3.svg": "/willku-portfolio/static/media/AngelList.8786f0e3.svg",
+    "static/media/Github.8d0020bf.svg": "/willku-portfolio/static/media/Github.8d0020bf.svg",
+    "static/media/LinkedIn.2a7f174a.svg": "/willku-portfolio/static/media/LinkedIn.2a7f174a.svg",
+    "static/media/avatar.5c52d978.svg": "/willku-portfolio/static/media/avatar.5c52d978.svg",
+    "static/media/briefcase.92152e51.svg": "/willku-portfolio/static/media/briefcase.92152e51.svg",
+    "static/media/home-run.d44057fe.svg": "/willku-portfolio/static/media/home-run.d44057fe.svg",
+    "static/media/mail.3c81d849.svg": "/willku-portfolio/static/media/mail.3c81d849.svg",
     "static/media/style.scss": "/willku-portfolio/static/media/mainpic.a6d53942.png",
     "static/media/slick-theme.css": "/willku-portfolio/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.b871b1f2.js",
+    "static/js/runtime-main.17582197.js",
     "static/css/2.936cf602.chunk.css",
-    "static/js/2.89b49375.chunk.js",
+    "static/js/2.d9e3058a.chunk.js",
     "static/css/main.88d51cf4.chunk.css",
-    "static/js/main.2c305b12.chunk.js"
+    "static/js/main.53958e71.chunk.js"
   ]
 }
