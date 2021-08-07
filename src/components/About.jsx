@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Brand from "./Brand";
+// import Brand from "./Brand";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 
 Modal.setAppElement("#root");
@@ -46,9 +46,14 @@ const About = () => {
                 and taking photos, like the one you see above!
               </p>
               <div className="tokyo_tm_button">
-                <button onClick={toggleModal} className="ib-button">
-                  Resume
-                </button>
+                {/* <button onClick={toggleModal} className="ib-button"> */}
+                <a
+                  style={{ margin: "0px", padding: "0px" }}
+                  className="ib-button"
+                  href="https://pixsy-dev.s3.us-east-2.amazonaws.com/port/William+Ku+-+Software+Engineer+Resume.pdf"
+                >
+                  <button className="ib-button">Link to Resume</button>
+                </a>
               </div>
               {/* END TOKYO BUTTON */}
             </div>

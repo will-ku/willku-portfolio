@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/willku-portfolio/static/css/main.88d51cf4.chunk.css",
-    "main.js": "/willku-portfolio/static/js/main.a9bed12a.chunk.js",
-    "main.js.map": "/willku-portfolio/static/js/main.a9bed12a.chunk.js.map",
+    "main.js": "/willku-portfolio/static/js/main.363343dc.chunk.js",
+    "main.js.map": "/willku-portfolio/static/js/main.363343dc.chunk.js.map",
     "runtime-main.js": "/willku-portfolio/static/js/runtime-main.4735a0d9.js",
     "runtime-main.js.map": "/willku-portfolio/static/js/runtime-main.4735a0d9.js.map",
     "static/css/2.936cf602.chunk.css": "/willku-portfolio/static/css/2.936cf602.chunk.css",
-    "static/js/2.63fded2a.chunk.js": "/willku-portfolio/static/js/2.63fded2a.chunk.js",
-    "static/js/2.63fded2a.chunk.js.map": "/willku-portfolio/static/js/2.63fded2a.chunk.js.map",
+    "static/js/2.33d39ffb.chunk.js": "/willku-portfolio/static/js/2.33d39ffb.chunk.js",
+    "static/js/2.33d39ffb.chunk.js.map": "/willku-portfolio/static/js/2.33d39ffb.chunk.js.map",
     "static/js/3.8a4315b4.chunk.js": "/willku-portfolio/static/js/3.8a4315b4.chunk.js",
     "static/js/3.8a4315b4.chunk.js.map": "/willku-portfolio/static/js/3.8a4315b4.chunk.js.map",
     "2eebe2c122b21b7bdd878af259927eb8.js": "/willku-portfolio/2eebe2c122b21b7bdd878af259927eb8.js",
@@ -15,7 +15,7 @@
     "index.html": "/willku-portfolio/index.html",
     "static/css/2.936cf602.chunk.css.map": "/willku-portfolio/static/css/2.936cf602.chunk.css.map",
     "static/css/main.88d51cf4.chunk.css.map": "/willku-portfolio/static/css/main.88d51cf4.chunk.css.map",
-    "static/js/2.63fded2a.chunk.js.LICENSE.txt": "/willku-portfolio/static/js/2.63fded2a.chunk.js.LICENSE.txt",
+    "static/js/2.33d39ffb.chunk.js.LICENSE.txt": "/willku-portfolio/static/js/2.33d39ffb.chunk.js.LICENSE.txt",
     "static/media/AngelList.8786f0e3.svg": "/willku-portfolio/static/media/AngelList.8786f0e3.svg",
     "static/media/Github.8d0020bf.svg": "/willku-portfolio/static/media/Github.8d0020bf.svg",
     "static/media/LinkedIn.2a7f174a.svg": "/willku-portfolio/static/media/LinkedIn.2a7f174a.svg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.4735a0d9.js",
     "static/css/2.936cf602.chunk.css",
-    "static/js/2.63fded2a.chunk.js",
+    "static/js/2.33d39ffb.chunk.js",
     "static/css/main.88d51cf4.chunk.css",
-    "static/js/main.a9bed12a.chunk.js"
+    "static/js/main.363343dc.chunk.js"
   ]
 }
