@@ -6,6 +6,10 @@ import About from "../../components/About";
 import Portfolio from "../../components/Portfolio";
 import News from "../../components/News";
 import Contact from "../../components/Contact";
+import homerun from "../../assets/svg/home-run.svg";
+import briefcase from "../../assets/svg/briefcase.svg";
+import avatar from "../../assets/svg/avatar.svg";
+import mail from "../../assets/svg/mail.svg";
 
 const HomeLight = () => {
   return (
@@ -26,19 +30,11 @@ const HomeLight = () => {
               <div className="menu">
                 <ul>
                   <Tab>
-                    <img
-                      className="svg"
-                      src="/assets/img/svg/home-run.svg"
-                      alt="homerun"
-                    />
+                    <img className="svg" src={homerun} alt="homerun" />
                     <span className="menu_content">Home</span>
                   </Tab>
                   <Tab>
-                    <img
-                      className="svg"
-                      src="/assets/img/svg/avatar.svg"
-                      alt="avatar"
-                    />
+                    <img className="svg" src={avatar} alt="avatar" />
                     <span className="menu_content">About</span>
                   </Tab>
                   {/* <Tab>
@@ -50,19 +46,11 @@ const HomeLight = () => {
                     <span className="menu_content">Portfolio</span>
                   </Tab> */}
                   <Tab>
-                    <img
-                      className="svg"
-                      src="/assets/img/svg/briefcase.svg"
-                      alt="Projects"
-                    />
+                    <img className="svg" src={briefcase} alt="Projects" />
                     <span className="menu_content">Projects</span>
                   </Tab>
                   <Tab>
-                    <img
-                      className="svg"
-                      src="/assets/img/svg/mail.svg"
-                      alt="mail"
-                    />
+                    <img className="svg" src={mail} alt="mail" />
                     <span className="menu_content"> Contact</span>
                   </Tab>
                 </ul>
