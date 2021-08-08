@@ -38,12 +38,12 @@ body {
 }
 svg {
   fill: currentcolor;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
 }
 img.svg {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
 }
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -563,7 +563,9 @@ h6 {
   padding-left: 50px;
 }
 .tokyo_tm_about .description .right > ul {
+  columns: 2;
   margin: 0px;
+  // list-style-position: inside;
   list-style-type: none;
 }
 .tokyo_tm_about .description .right > ul > li {
@@ -572,7 +574,9 @@ h6 {
   float: left;
 }
 .tokyo_tm_about .description .right > ul > li span {
-  min-width: 90px;
+  min-width: 20px;
+  //WK: Changed from 90 to 20 because span will just be the li bullet
+  // min-width: 90px;
   display: inline-block;
   font-weight: 700;
   color: #000;
@@ -591,6 +595,7 @@ h6 {
   color: #000;
   letter-spacing: 2px;
 }
+
 .tokyo_tm_button {
   width: 100%;
   height: auto;
@@ -823,7 +828,8 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  margin-bottom: 62px;
+  margin-bottom: 50px;
+  // margin-bottom: 62px;
 }
 .tokyo_tm_title h3 {
   font-weight: 800;
@@ -1656,7 +1662,8 @@ body.modal {
   .tokyo_tm_portfolio,
   .tokyo_tm_contact,
   .tokyo_tm_news {
-    padding-top: 170px;
+    padding-top: 100px;
+    // padding-top: 170px;
   }
   .tokyo_tm_home {
     padding-bottom: 120px;
@@ -1922,6 +1929,7 @@ body.modal {
 .o-video > img {
   width: 100%;
   height: 100%;
+  // height: 100%;
   position: absolute;
   top: 0;
   left: 0;

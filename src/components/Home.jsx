@@ -19,8 +19,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">William Ku</h3>
             <p className="job" style={{ lineHeight: "1.7" }}>
-              Software Engineer. New Yorker. <br /> Photographer. Cool shit
-              builder.
+              Software Engineer. New Yorker. <br /> Photographer. Creative Thinker.
             </p>
             {/* END JOB */}
             <Social />
