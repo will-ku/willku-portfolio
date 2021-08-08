@@ -10,7 +10,8 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/mainpicbrighter.png)",
+                backgroundImage:
+                  "url(https://pixsy-dev.s3.us-east-2.amazonaws.com/port/mainphotopdark.png)",
               }}
             ></div>
             {/* END AVATAR IMAGE */}
@@ -19,7 +20,8 @@ const Home = () => {
           <div className="details">
             <h3 className="name">William Ku</h3>
             <p className="job" style={{ lineHeight: "1.7" }}>
-              Software Engineer. New Yorker. <br /> Photographer. Creative Thinker.
+              Software Engineer. New Yorker. <br /> Photographer. Creative
+              Thinker.
             </p>
             {/* END JOB */}
             <Social />

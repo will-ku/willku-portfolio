@@ -78,49 +78,72 @@ const About = () => {
             </div>
             {/* END LEFT */}
             <div className="right">
-              <p>Below are some technologies that I've worked:</p>
+              <p style={{ marginBottom: "20px" }}>
+                Below are a few technologies that I've worked with recently:
+              </p>
               <ul>
                 <li>
                   <p>
                     <span>▹</span>
                     {/* <a href="tel:+770221770505">+77 022 177 05 05</a> */}
-                    nil
+                    React
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>▹</span>nil
+                    <span>▹</span>Redux
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>▹</span>nil
+                    <span>▹</span>Javascript
                   </p>
                 </li>
                 <li>
                   <span>▹</span>
-                  nil
+                  D3.js
                 </li>
                 <li>
                   <p>
                     <span>▹</span>
                     {/* <a href="tel:+770221770505">+77 022 177 05 05</a> */}
-                    nil
+                    Express
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>▹</span>nil
+                    <span>▹</span>HTML5/CSS3
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>▹</span>nil
+                    <span>▹</span>Ruby
                   </p>
                 </li>
                 <li>
-                  <span>▹</span>
-                  nil
+                  <p>
+                    <span>▹</span>Ruby on Rails
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>▹</span>PostgreSQL
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>▹</span>MongoDB
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>▹</span>Node
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>▹</span>Git
+                  </p>
                 </li>
               </ul>
               {/* END UL */}

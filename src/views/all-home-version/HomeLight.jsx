@@ -10,6 +10,7 @@ import homerun from "../../assets/svg/home-run.svg";
 import briefcase from "../../assets/svg/briefcase.svg";
 import avatar from "../../assets/svg/avatar.svg";
 import mail from "../../assets/svg/mail.svg";
+import Social from "../../components/Social";
 
 const HomeLight = () => {
   return (
@@ -71,6 +72,7 @@ const HomeLight = () => {
               </div> */}
               {/* END COPYRIGHT */}
             </div>
+            <div></div>
           </div>
           {/* END LEFT MENU CONTENT */}
         </TabList>
