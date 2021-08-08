@@ -58,7 +58,8 @@ const News = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/news/portpixsy.png)",
+                      backgroundImage:
+                        "url(https://pixsy-dev.s3.us-east-2.amazonaws.com/port/portpixsy.png)",
                     }}
                   ></div>
                 </div>
@@ -224,7 +225,8 @@ const News = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/news/porthomecourt.png)",
+                      backgroundImage:
+                        "url(https://pixsy-dev.s3.us-east-2.amazonaws.com/port/porthomecourt.png)",
                     }}
                   ></div>
                 </div>
@@ -387,7 +389,8 @@ const News = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/news/portnycviz.png)",
+                      backgroundImage:
+                        "url(https://pixsy-dev.s3.us-east-2.amazonaws.com/port/portnycviz.png)",
                     }}
                   ></div>
                 </div>
