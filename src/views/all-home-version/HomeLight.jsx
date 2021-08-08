@@ -10,7 +10,7 @@ import homerun from "../../assets/svg/home-run.svg";
 import briefcase from "../../assets/svg/briefcase.svg";
 import avatar from "../../assets/svg/avatar.svg";
 import mail from "../../assets/svg/mail.svg";
-import Social from "../../components/Social";
+import wklogo from "../../assets/svg/wklogo.svg";
 
 const HomeLight = () => {
   return (
@@ -21,9 +21,9 @@ const HomeLight = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="#">
+                <Link className="navbar-brand" to="/">
                   {/* this is where the logo would*/}
-                  {/* <img src="/assets/img/logo/dark.png" alt="brand" /> */}
+                  <img src={wklogo} alt="brand" />
                 </Link>
               </div>
               {/* END LOGO */}
