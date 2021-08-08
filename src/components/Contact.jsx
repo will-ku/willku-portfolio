@@ -2,15 +2,16 @@ import React from "react";
 import { useState } from "react";
 import ReactMapGL from "react-map-gl";
 import emailjs from "emailjs-com";
+import Social from "./Social";
 
-const Contact = () => {
+export default function Contact() {
   const [viewport, setViewport] = useState({
     latitude: 40.7411,
     longitude: -73.9897,
     zoom: 10,
   });
 
-  function sendEmail(e) {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
@@ -28,8 +29,7 @@ const Contact = () => {
       });
 
     e.target.reset();
-  }
-
+  };
   return (
     <>
       <div className="tokyo_tm_contact">
@@ -38,6 +38,19 @@ const Contact = () => {
             <div className="left">
               {/* <span>Contact</span> */}
               <h3>Let's Connect!</h3>
+              <p
+                style={{
+                  marginTop: "20px",
+                  marginBottom: "20px",
+                  opacity: ".8",
+                }}
+              >
+                I am currently looking for full-time software engineer roles,
+                but my inbox is open for anything. Whether you have feedback
+                about my projects or would just like to chat, feel free to shoot
+                me a message or connect with me on social!
+              </p>
+              <Social />
             </div>
           </div>
         </div>
@@ -89,6 +102,4 @@ const Contact = () => {
       {/* END COTACT */}
     </>
   );
-};
-
-export default Contact;
+}

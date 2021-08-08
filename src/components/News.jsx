@@ -48,7 +48,10 @@ const News = () => {
         <ul>
           <li>
             <div className="list_inner">
-              <a href="https://pixsy-fullstack.herokuapp.com/#/">
+              <a
+                href="https://pixsy-fullstack.herokuapp.com/#/"
+                target="_blank"
+              >
                 <div className="image">
                   {/* <div className="image" onClick={toggleModalOne}> */}
                   <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
@@ -70,10 +73,20 @@ const News = () => {
                 {/* END EXTRA */}
 
                 <h3 className="title" onClick={toggleModalOne}>
-                  Pixsy is an online photography marketplace inspired by Etsy.
+                  <a
+                    href="https://pixsy-fullstack.herokuapp.com/#/"
+                    className="news-project-links"
+                    style={{ textDecoration: "none" }}
+                    target="_blank"
+                  >
+                    Pixsy is an online photography marketplace inspired by Etsy.
+                  </a>
                 </h3>
                 <div className="tokyo_tm_read_more">
-                  <a href="https://pixsy-fullstack.herokuapp.com/#/">
+                  <a
+                    href="https://pixsy-fullstack.herokuapp.com/#/"
+                    target="_blank"
+                  >
                     {/* <a onClick={toggleModalOne}> */}
                     <span>Live Demo</span>
                   </a>
@@ -204,7 +217,7 @@ const News = () => {
 
           <li>
             <div className="list_inner">
-              <a href="https://home-court.herokuapp.com/">
+              <a href="https://home-court.herokuapp.com/" target="_blank">
                 <div className="image">
                   {/* <div className="image" onClick={toggleModalTwo}> */}
                   <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
@@ -228,8 +241,15 @@ const News = () => {
                 {/* MUST FIX THIS SO THAT I LINK TO PROJECT */}
                 <h3 className="title">
                   {/* <h3 className="title" onClick={toggleModalTwo}> */}
-                  Home Court is a social app that simplifies pickup sports
-                  logistics.
+                  <a
+                    href="https://home-court.herokuapp.com/"
+                    className="news-project-links"
+                    style={{ textDecoration: "none" }}
+                    target="_blank"
+                  >
+                    Home Court is a social app that simplifies pickup sports
+                    logistics.
+                  </a>
                 </h3>
                 <div className="tokyo_tm_read_more">
                   <a href="https://home-court.herokuapp.com/">
@@ -360,7 +380,7 @@ const News = () => {
 
           <li>
             <div className="list_inner">
-              <a href="https://will-ku.github.io/nyc-viz/">
+              <a href="https://will-ku.github.io/nyc-viz/" target="_blank">
                 <div className="image">
                   {/* <div className="image" onClick={toggleModalThree}> */}
                   <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
@@ -378,13 +398,19 @@ const News = () => {
                 <div className="extra">
                   <p className="date">HTML/CSS, Javascript, D3.js</p>
                 </div>
-
                 <h3 className="title" onClick={toggleModalThree}>
-                  NYC Viz is a data visualization app for New York City real
-                  estate.
+                  <a
+                    href="https://home-court.herokuapp.com/"
+                    className="news-project-links"
+                    style={{ textDecoration: "none" }}
+                    target="_blank"
+                  >
+                    NYC Viz is a data visualization app for New York City real
+                    estate.
+                  </a>
                 </h3>
                 <div className="tokyo_tm_read_more">
-                  <a href="https://will-ku.github.io/nyc-viz/">
+                  <a href="https://will-ku.github.io/nyc-viz/" target="_blank">
                     {/* <a onClick={toggleModalThree}> */}
                     <span>Live Demo</span>
                   </a>

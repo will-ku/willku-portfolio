@@ -831,7 +831,7 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   // margin-bottom: 62px;
 }
 .tokyo_tm_title h3 {
@@ -1938,4 +1938,26 @@ body.modal {
   left: 0;
   border: 0;
   object-fit: cover;
+}
+
+// WK CSS Below
+
+.news-project-links:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.news-project-links:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.news-project-links:focus {
+  text-decoration: none;
+  color: black;
+}
+
+.news-project-links:active {
+  text-decoration: none;
+  color: black;
 }
