@@ -1098,7 +1098,7 @@ ul.react-tabs__tab-list {
   padding-bottom: 5px;
 }
 .tokyo_tm_read_more {
-  width: 100%;
+  width: 85%;
   height: auto;
   clear: both;
   float: left;
@@ -1960,4 +1960,22 @@ body.modal {
 .news-project-links:active {
   text-decoration: none;
   color: black;
+}
+
+.tokyo_tm_read_more_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-svg {
+  opacity: 0.3;
+  margin-bottom: 0.8rem;
+}
+
+.project-svg:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 1;
 }

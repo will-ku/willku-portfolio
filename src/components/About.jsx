@@ -4,6 +4,7 @@ import Modal from "react-modal";
 import { pdfjs, Document, Page } from "react-pdf/dist/esm/entry.webpack";
 // import ExpressSVG from "./techSVG";
 
+
 Modal.setAppElement("#root");
 
 const About = () => {

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Social from "./Social";
+import github from "../assets/svg/social/Github.svg";
 
 Modal.setAppElement("#root");
 
@@ -83,13 +84,18 @@ const News = () => {
                     Pixsy is an online photography marketplace inspired by Etsy.
                   </a>
                 </h3>
-                <div className="tokyo_tm_read_more">
-                  <a
-                    href="https://pixsy-fullstack.herokuapp.com/#/"
-                    target="_blank"
-                  >
-                    {/* <a onClick={toggleModalOne}> */}
-                    <span>Live Demo</span>
+                <div className="tokyo_tm_read_more_container">
+                  <div className="tokyo_tm_read_more">
+                    <a
+                      href="https://pixsy-fullstack.herokuapp.com/#/"
+                      target="_blank"
+                    >
+                      {/* <a onClick={toggleModalOne}> */}
+                      <span>Live Demo</span>
+                    </a>
+                  </div>
+                  <a href="http://github.com/will-ku/Pixsy" target="_blank">
+                    <img src={github} className="svg project-svg" />
                   </a>
                 </div>
                 {/* END READ MORE BUTTON */}
@@ -253,10 +259,18 @@ const News = () => {
                     logistics.
                   </a>
                 </h3>
-                <div className="tokyo_tm_read_more">
-                  <a href="https://home-court.herokuapp.com/">
-                    {/* <a onClick={toggleModalTwo}> */}
-                    <span>Live Demo</span>
+                <div className="tokyo_tm_read_more_container">
+                  <div className="tokyo_tm_read_more">
+                    <a href="https://home-court.herokuapp.com/">
+                      {/* <a onClick={toggleModalTwo}> */}
+                      <span>Live Demo</span>
+                    </a>
+                  </div>
+                  <a
+                    href="https://github.com/mmbarness/home_court"
+                    target="_blank"
+                  >
+                    <img src={github} className="svg project-svg" />
                   </a>
                 </div>
                 {/* END READ MORE BUTTON */}
@@ -412,13 +426,22 @@ const News = () => {
                     estate.
                   </a>
                 </h3>
-                <div className="tokyo_tm_read_more">
-                  <a href="https://will-ku.github.io/nyc-viz/" target="_blank">
-                    {/* <a onClick={toggleModalThree}> */}
-                    <span>Live Demo</span>
+                <div className="tokyo_tm_read_more_container">
+                  <div className="tokyo_tm_read_more">
+                    <a
+                      href="https://will-ku.github.io/nyc-viz/"
+                      target="_blank"
+                    >
+                      {/* <a onClick={toggleModalThree}> */}
+                      <span>Live Demo</span>
+                    </a>
+                  </div>
+                  <a href="http://github.com/will-ku/nyc-viz" target="_blank">
+                    <img src={github} className="svg project-svg" />
                   </a>
                 </div>
               </div>
+
               {/* END DETAILS */}
 
               {/* START MODAL */}
