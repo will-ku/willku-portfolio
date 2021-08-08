@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/willku-portfolio/static/css/main.15bc8959.chunk.css",
-    "main.js": "/willku-portfolio/static/js/main.053dc922.chunk.js",
-    "main.js.map": "/willku-portfolio/static/js/main.053dc922.chunk.js.map",
+    "main.js": "/willku-portfolio/static/js/main.a59ce963.chunk.js",
+    "main.js.map": "/willku-portfolio/static/js/main.a59ce963.chunk.js.map",
     "runtime-main.js": "/willku-portfolio/static/js/runtime-main.2b3f79ef.js",
     "runtime-main.js.map": "/willku-portfolio/static/js/runtime-main.2b3f79ef.js.map",
     "static/js/2.6089999e.chunk.js": "/willku-portfolio/static/js/2.6089999e.chunk.js",
@@ -22,12 +22,12 @@
     "static/media/home-run.d44057fe.svg": "/willku-portfolio/static/media/home-run.d44057fe.svg",
     "static/media/mail.3c81d849.svg": "/willku-portfolio/static/media/mail.3c81d849.svg",
     "static/media/style.scss": "/willku-portfolio/static/media/mainpic.a6d53942.png",
-    "static/media/wklogo.318b8d44.svg": "/willku-portfolio/static/media/wklogo.318b8d44.svg"
+    "static/media/wklogo.a6d72712.svg": "/willku-portfolio/static/media/wklogo.a6d72712.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2b3f79ef.js",
     "static/js/2.6089999e.chunk.js",
     "static/css/main.15bc8959.chunk.css",
-    "static/js/main.053dc922.chunk.js"
+    "static/js/main.a59ce963.chunk.js"
   ]
 }
