@@ -21,7 +21,7 @@ const HomeLight = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/willku-portfolio">
+                <Link className="navbar-brand" to="/">
                   {/* this is where the logo would*/}
                   <img src={wklogo} alt="brand" />
                 </Link>

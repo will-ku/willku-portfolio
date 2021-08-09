@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import wklogo from "../../assets/svg/wklogo.svg";
 
 const NotFound = () => {
   return (
@@ -7,12 +8,13 @@ const NotFound = () => {
       <div className="leftpart">
         <div className="leftpart_inner">
           <div className="logo">
-            <Link className="navbar-brand" to="/">
-              <img src="/assets/img/logo/dark.png" alt="brand" />
+            <Link className="navbar-brand" to="#">
+              {/* this is where the logo would*/}
+              <img src={wklogo} alt="brand" />
             </Link>
           </div>
           {/* END LOGO */}
-          <div className="copyright">
+          {/* <div className="copyright">
             <p>
               &copy; 2021 Tokyo <br /> Created by
               <a
@@ -23,7 +25,7 @@ const NotFound = () => {
                 Ib-Themes
               </a>
             </p>
-          </div>
+          </div> */}
           {/* END COPYRIGHT */}
         </div>
       </div>
