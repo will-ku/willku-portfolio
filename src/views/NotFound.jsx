@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import wklogo from "../../assets/svg/wklogo.svg";
+import wklogo from "../assets/svg/wklogo.svg";
 
 const NotFound = () => {
   return (
