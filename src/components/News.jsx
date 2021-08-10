@@ -94,7 +94,11 @@ const News = () => {
                       <span>Live Demo</span>
                     </a>
                   </div>
-                  <a href="http://github.com/will-ku/Pixsy" target="_blank">
+                  <a
+                    href="http://github.com/will-ku/Pixsy"
+                    target="_blank"
+                    className="project-github-link"
+                  >
                     <img src={github} className="svg project-svg" />
                   </a>
                 </div>
@@ -269,6 +273,7 @@ const News = () => {
                   <a
                     href="https://github.com/mmbarness/home_court"
                     target="_blank"
+                    className="project-github-link"
                   >
                     <img src={github} className="svg project-svg" />
                   </a>
@@ -436,7 +441,11 @@ const News = () => {
                       <span>Live Demo</span>
                     </a>
                   </div>
-                  <a href="http://github.com/will-ku/nyc-viz" target="_blank">
+                  <a
+                    href="http://github.com/will-ku/nyc-viz"
+                    target="_blank"
+                    className="project-github-link"
+                  >
                     <img src={github} className="svg project-svg" />
                   </a>
                 </div>
