@@ -13,6 +13,7 @@ import mail from "../../assets/svg/mail.svg";
 import wklogo from "../../assets/svg/wklogo.svg";
 
 const HomeLight = () => {
+
   return (
     <>
       <Tabs>
