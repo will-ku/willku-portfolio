@@ -59,10 +59,9 @@ const About = () => {
                 <br />
                 Before web development, I devoted over 8 years to improving
                 healthcare through technology in various roles. In my downtime,
-                I enjoy photography, basketball, and a competitive game of
-                Settlers of Catan 🌾.
+                I enjoy photography and basketball.
               </p>
-              <div className="tokyo_tm_button">
+              {/* <div className="tokyo_tm_button">
                 {/* <button onClick={toggleModal} className="ib-button"> */}
                 <a
                   style={{ margin: "0px", padding: "0px" }}
@@ -74,7 +73,7 @@ const About = () => {
                 </a>
                 {/* Resume
                 </button> */}
-              </div>
+              </div> */}
               {/* END TOKYO BUTTON */}
             </div>
             {/* END LEFT */}
