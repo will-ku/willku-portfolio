@@ -4,7 +4,6 @@ import Modal from "react-modal";
 import { pdfjs, Document, Page } from "react-pdf/dist/esm/entry.webpack";
 // import ExpressSVG from "./techSVG";
 
-
 Modal.setAppElement("#root");
 
 const About = () => {
@@ -63,17 +62,17 @@ const About = () => {
               </p>
               {/* <div className="tokyo_tm_button">
                 {/* <button onClick={toggleModal} className="ib-button"> */}
-                <a
-                  style={{ margin: "0px", padding: "0px" }}
-                  className="ib-button"
-                  href="https://pixsy-dev.s3.us-east-2.amazonaws.com/port/William+Ku+-+Software+Engineer+Resume.pdf"
-                  target="_blank"
-                >
-                  <button className="ib-button">Link to Resume</button>
-                </a>
-                {/* Resume
+              <a
+                style={{ margin: "0px", padding: "0px" }}
+                className="ib-button"
+                href="https://pixsy-dev.s3.us-east-2.amazonaws.com/port/William+Ku+Resume+-+Software+Engineer.pdf"
+                target="_blank"
+              >
+                <button className="ib-button">Link to Resume</button>
+              </a>
+              {/* Resume
                 </button> */}
-              </div> */}
+              {/* </div> */}
               {/* END TOKYO BUTTON */}
             </div>
             {/* END LEFT */}
