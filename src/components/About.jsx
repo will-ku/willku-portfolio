@@ -56,9 +56,9 @@ const About = () => {
                 backend applications.
                 <br />
                 <br />
-                Before web development, I devoted over 8 years to improving
-                healthcare through technology in various roles. In my downtime,
-                I enjoy photography and basketball.
+                Prior to my career as an engineer, I devoted over 8 years to
+                improving healthcare through technology in various roles. In my
+                downtime, I enjoy photography and basketball.
               </p>
               {/* <div className="tokyo_tm_button">
                 {/* <button onClick={toggleModal} className="ib-button"> */}
